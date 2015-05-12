@@ -21,7 +21,8 @@
     </div>
     <div>
       <ul class="nav navbar-nav navbar-right">
-      <li> <a class="navbar-brand" href="#">Bienvenido <%
+      <li> <a class="navbar-brand" href="#">Bienvenido..
+       <%
     out.println(session.getAttribute("user"));
     %></a></li>
         <li><a href="index.jsp"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
