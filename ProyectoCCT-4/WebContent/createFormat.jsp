@@ -21,7 +21,7 @@
     </div>
     <div>
       <ul class="nav navbar-nav navbar-right">
-      <li> <a class="navbar-brand" href="#">Bienvenido..
+      <li> <a class="navbar-brand" href="#">Bienvenido...
        <%
     out.println(session.getAttribute("user"));
     %></a></li>
